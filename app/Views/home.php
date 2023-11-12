@@ -11,17 +11,16 @@
     </head>
     <body>
         <header>
-            <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">Home</a>
+            <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid d-flex align-items-baseline">
+                    <a class="navbar-brand" href="/home">Home</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="/formulario">Formulario</a>
                             <a class="nav-link" href="/perfil">Perfil</a>
-                            <a class="nav-link" href="/">Otro enlace</a>
+                            <a class="nav-link" href="/publication">Publicaciones</a>
                         </div>
                     </div>
                 </div>

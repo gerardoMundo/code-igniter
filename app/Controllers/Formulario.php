@@ -8,7 +8,7 @@ class Formulario extends BaseController {
         return view('formulario');
     }
 
-    public function procesarFormulario()
+    public function login()
     {
         $request = service('request');
 
@@ -18,12 +18,13 @@ class Formulario extends BaseController {
             $rol = $request->getVar('rol');
 
 
-            session()->set('formulario_data', [
+            session()->set('formularioData', [
                 'nombre' => $nombre,
                 'correo' => $correo,
                 'rol' => $rol
             ]);
-            return redirect()->to('/perfil');
+            return redirect()->to('home');
         }
+        return view('/perfil');
     }
 }
