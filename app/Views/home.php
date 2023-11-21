@@ -21,6 +21,7 @@
                         <div class="navbar-nav">
                             <a class="nav-link" href="/perfil">Perfil</a>
                             <a class="nav-link" href="/publication">Publicaciones</a>
+                            <a class="nav-link" href="/documents">Documentos</a>
                         </div>
                     </div>
                 </div>
