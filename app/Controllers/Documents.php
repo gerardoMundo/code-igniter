@@ -25,7 +25,7 @@ class Documents extends BaseController {
         if (file_exists($documentPath)) {
            unlink($documentPath);
         }
-        return redirect()->to('documents');
+        return redirect()->to(base_url() . '/documents');
     }
 
     private function getDocumentList()

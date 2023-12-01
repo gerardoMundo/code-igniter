@@ -15,11 +15,10 @@
             <?php if (!empty($documents)): ?>
                 <ul>
                     <?php foreach ($documents as $document): ?>
-                        <li class="mt-4">
+                        <li class="mt-4 list-group-item">
                             <?= $document; ?>
                             <a class="btn btn-danger"
-                               href="<?=
-                               site_url('documents/deleteDocument/' . $document); ?>"
+                               href="documents/deleteDocument/<?=$document?>"
                                onclick="return confirm('¿Estás seguro de que deseas eliminar este documento?')">
                                 Eliminar
                             </a>
